@@ -2,9 +2,9 @@ package com.sunbeam.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.sunbeam.entities.User;
+import com.sunbeam.entities.Customer;
 
-public interface UserDao extends JpaRepository<User, Long> {
+public interface UserDao extends JpaRepository<Customer, Long> {
     
 
 }
