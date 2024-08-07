@@ -1,34 +1,27 @@
 package com.sunbeam.entities;
+
+import lombok.*;
+
 import javax.persistence.*;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
-import javax.persistence.Table;
+import java.util.Set;
 
-@Table(name="users")
-public class User extends BaseEntity {
+@Entity
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-	    
-	    @Column(name="first_name",length=25)
-	    private String fname;
-	 
-	    @Column(name="last_name",length=25)
-	 	private String lname;
+    private String username;
+    private String password;
+    private String email;
 
-	    private String address;
-	    
-	    @Column(length = 20, unique = true)
-	    private String email;
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    private Cart cart;
 
-	    @Column(length = 20, nullable = false)
-	    private String password;
-
-//	    @NotBlank(message = "Phone number is mandatory")
-//	    @Pattern(regexp = "^[0-9]{10,20}$", message = "Phone number should be between 10 and 20 digits")
-	    private String phoneNo;
-	
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private Set<OrderItem> orders;
 }
