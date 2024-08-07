@@ -3,21 +3,25 @@ package com.sunbeam.entities;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.Set;
 
 @Entity
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Seller {
+public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String name;
-    private String email;
+    @ManyToOne
+    @JoinColumn(name = "product_id")
+    private Product product;
 
-    @OneToMany(mappedBy = "seller", cascade = CascadeType.ALL)
-    private Set<Product> products;
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
+
+    private int rating;
+    private String comment;
 }
