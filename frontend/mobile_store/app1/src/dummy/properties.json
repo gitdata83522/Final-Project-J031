@@ -1,0 +1,58 @@
+[
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S21",
+      "price": "799",
+      "processor": "Exynos 2100",
+      "ram": "8",
+      "storage": "128",
+      "battery": "4000",
+      "camera": "108",
+      "image": "https://example.com/galaxy-s21.jpg"
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 12",
+      "price": "799",
+      "processor": "A14 Bionic",
+      "ram": "4",
+      "storage": "64",
+      "battery": "2815",
+      "camera": "12",
+      "image": "https://example.com/iphone-12.jpg"
+    },
+    {
+      "brand": "OnePlus",
+      "model": "OnePlus 9",
+      "price": "729",
+      "processor": "Snapdragon 888",
+      "ram": "8",
+      "storage": "128",
+      "battery": "4500",
+      "camera": "48",
+      "image": "https://example.com/oneplus-9.jpg"
+    },
+    {
+      "brand": "Google",
+      "model": "Pixel 5",
+      "price": "699",
+      "processor": "Snapdragon 765G",
+      "ram": "8",
+      "storage": "128",
+      "battery": "4080",
+      "camera": "12.2",
+      "image": "https://example.com/pixel-5.jpg"
+    },
+    {
+      "brand": "Xiaomi",
+      "model": "Mi 11",
+      "price": "749",
+      "processor": "Snapdragon 888",
+      "ram": "8",
+      "storage": "128",
+      "battery": "4600",
+      "camera": "108",
+      "image": "https://example.com/mi-11.jpg"
+    }
+  ]
+  

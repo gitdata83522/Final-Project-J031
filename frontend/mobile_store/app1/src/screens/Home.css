@@ -1,0 +1,32 @@
+.home{
+    height: 50vw;
+    margin: 0px auto;
+    background: url('../images/home2.png') no-repeat ;
+    background-size: contain;
+    background-position: 100%;
+    background-position: -3%;
+    position: relative;
+    max-width: 100%;
+   
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 100%;
+    bottom: 10%;
+    left: 6vw;
+}
+
+.header-contents h2{
+    font-weight: 300;
+    color: aliceblue;
+    font-size: max(5.5vw,22px);
+}
+
+.header-contents p{
+    color:black;
+    font-size: 1vw;
+}
