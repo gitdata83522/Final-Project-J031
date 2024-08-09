@@ -1,0 +1,83 @@
+[
+    {
+      "username": "John Doe",
+      "mobileBrand": "Samsung Galaxy S21",
+      "address": "123 Maple Street, Springfield, IL",
+      "fromDate": "2023-09-01",
+      "toDate": "2023-09-07",
+      "price": "799"
+    },
+    {
+      "username": "Jane Smith",
+      "mobileBrand": "Apple iPhone 13",
+      "address": "456 Oak Avenue, Chicago, IL",
+      "fromDate": "2023-09-10",
+      "toDate": "2023-09-15",
+      "price": "999"
+    },
+    {
+      "username": "Michael Johnson",
+      "mobileBrand": "OnePlus 9",
+      "address": "789 Pine Road, Naperville, IL",
+      "fromDate": "2023-09-20",
+      "toDate": "2023-09-25",
+      "price": "729"
+    },
+    {
+      "username": "Emily Davis",
+      "mobileBrand": "Google Pixel 6",
+      "address": "101 Birch Lane, Peoria, IL",
+      "fromDate": "2023-10-01",
+      "toDate": "2023-10-05",
+      "price": "699"
+    },
+    {
+      "username": "David Miller",
+      "mobileBrand": "Xiaomi Mi 11",
+      "address": "202 Cedar Street, Rockford, IL",
+      "fromDate": "2023-10-10",
+      "toDate": "2023-10-15",
+      "price": "599"
+    },
+    {
+      "username": "Sarah Wilson",
+      "mobileBrand": "Sony Xperia 5 II",
+      "address": "303 Elm Avenue, Joliet, IL",
+      "fromDate": "2023-10-20",
+      "toDate": "2023-10-25",
+      "price": "949"
+    },
+    {
+      "username": "James Brown",
+      "mobileBrand": "Huawei P40 Pro",
+      "address": "404 Ash Street, Aurora, IL",
+      "fromDate": "2023-11-01",
+      "toDate": "2023-11-05",
+      "price": "799"
+    },
+    {
+      "username": "Olivia Martinez",
+      "mobileBrand": "Oppo Find X3 Pro",
+      "address": "505 Walnut Road, Elgin, IL",
+      "fromDate": "2023-11-10",
+      "toDate": "2023-11-15",
+      "price": "999"
+    },
+    {
+      "username": "William Anderson",
+      "mobileBrand": "Motorola Edge 20",
+      "address": "606 Chestnut Boulevard, Waukegan, IL",
+      "fromDate": "2023-11-20",
+      "toDate": "2023-11-25",
+      "price": "699"
+    },
+    {
+      "username": "Ava Clark",
+      "mobileBrand": "Asus ROG Phone 5",
+      "address": "707 Poplar Court, Champaign, IL",
+      "fromDate": "2023-12-01",
+      "toDate": "2023-12-05",
+      "price": "899"
+    }
+  ]
+  
